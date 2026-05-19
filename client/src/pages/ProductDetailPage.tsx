@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductDetailPage: React.FC = () => {
-  return <div></div>;
+  return <div>YESS</div>;
 };
 
 export default ProductDetailPage;
