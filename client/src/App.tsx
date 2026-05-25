@@ -10,6 +10,7 @@ import RegisterPage from "./pages/RegisterPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import MyOrderPage from "./pages/MyOrderPage";
 import RootLayout from "./layout/RootLayout";
+import ThankYouPage from "./components/ThankYou";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route element={<RootLayout />}>
             <Route path="/checkout" element={<CheckoutPage />} />
             <Route path="/my-orders" element={<MyOrderPage />} />
+            <Route path="/thankyou" element={<ThankYouPage />}/>
           </Route>
 
           <Route />
