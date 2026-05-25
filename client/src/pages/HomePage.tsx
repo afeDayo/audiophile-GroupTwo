@@ -1,7 +1,12 @@
 import React from "react";
+import Man from "../components/Man";
 
 const HomePage: React.FC = () => {
-  return <div>YOOO</div>;
+  return (
+    <div>
+      <Man />
+    </div>
+  );
 };
 
 export default HomePage;
